@@ -1,0 +1,601 @@
+@media (min-width: 1200px) {
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+    animation: slideIn 0.5s ease-in-out;
+  }
+  .dropstart:hover > .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 99%;
+  }
+
+  .dropdown:hover > .arrow-icon {
+    transform: rotate(90deg);
+  }
+  .dropstart:hover .arrow-icon {
+    transform: none;
+  }
+
+  .dropdown .dropdown-menu {
+    display: none;
+    margin-top: 1px;
+    border-radius: 0;
+    margin-left: -90px;
+    padding: 0;
+  }
+
+  .dropdown .dropdown-item:hover {
+    background-color: #ffc61a;
+    color: black;
+  }
+
+  .dropdown-menu .dropdown-item.active {
+    background-color: white;
+    color: #ffc61a;
+  }
+  .dropdown-menu .dropdown-item.active:hover {
+    background-color: #ffc61a;
+    color: white;
+    transition: all 0.8s ease-out;
+  }
+
+  .dropdown .dropdown-menu .dropdown-item {
+    padding: 10px 120px 10px 30px;
+    font-weight: 600;
+  }
+
+  .services .service-1::after,
+  .services .service-2::after,
+  .services .service-3::after {
+    content: "";
+    display: block;
+    border-right: 1px dashed #b5b2b2;
+    height: 100%;
+    margin-right: -13px;
+    margin-top: -197px;
+  }
+}
+
+@media (max-width: 768px) {
+  .offcanvas {
+    width: 100% !important;
+    background-color: #ffc61a !important;
+  }
+  .offcanvas.offcanvas-start {
+    top: -3px !important;
+  }
+  .offcanvas .offcanvas-header {
+    justify-content: end;
+  }
+  .offcanvas .offcanvas-header .btn-close {
+    font-size: 2rem;
+    padding: 0.7rem;
+  }
+  .offcanvas-body {
+    padding: 0 !important;
+  }
+  .offcanvas-body .nav-link {
+    color: black;
+    padding: 0.4rem 1rem 0.5rem 1.5rem;
+    text-transform: capitalize;
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+  .offcanvas-body .nav-link:hover {
+    color: black;
+    background-color: #eeeeee !important;
+  }
+  .offcanvas-body .nav-link.active {
+    color: #fff !important;
+  }
+
+  .offcanvas-body .nav-link .arrow-icon {
+    display: none;
+  }
+  .offcanvas-body .nav-item.dropdown .nav-link:after {
+    content: "\f0da";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    float: right;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  .cart-icon i {
+    color: black;
+    padding: 1rem 0 0 1.5rem;
+    font-size: 1.5rem !important;
+    margin-top: 0;
+  }
+
+  .cart-icon span {
+    margin-top: -2px;
+  }
+
+  .dropdown .dropdown-item:hover {
+    background-color: #ffc61a;
+    color: black;
+  }
+
+  .dropdown-menu .dropdown-item.active {
+    background-color: white;
+    color: #ffc61a;
+  }
+  .dropdown-menu .dropdown-item.active:hover {
+    background-color: #ffc61a;
+    color: white;
+  }
+  .dropdown .dropdown-menu .dropdown-item {
+    padding: 10px 120px 10px 30px;
+    font-weight: 600;
+  }
+  .dropdown .dropdown-menu {
+    padding: 0;
+    border-radius: 0;
+  }
+  .container-style {
+    border-bottom: none;
+    margin-bottom: 0.2rem;
+    margin-top: -0.2rem;
+  }
+
+  .banner-content {
+    top: 15%;
+    left: 3%;
+    width: 568px;
+    height: 634px;
+    background-color: #f5f5f5;
+  }
+
+  .banner-container {
+    height: 85vh;
+  }
+
+  .banner-content .vehicles {
+    width: 100%;
+  }
+
+  .contact-container {
+    height: 203px;
+  }
+
+  .contact-info {
+    flex-wrap: wrap;
+  }
+  .contact-info h2 {
+    font-weight: 700;
+  }
+
+  .contact-info p:nth-of-type(2) {
+    width: 15rem;
+  }
+  .contact-info .phone-style {
+    font-size: 17px;
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    padding-left: 10px;
+    margin-right: 10px;
+  }
+
+  .contact-info .skype-style {
+    font-size: 17px;
+    width: 35px;
+    height: 35px;
+    line-height: 37px;
+    padding-left: 10px;
+    margin-right: 10px;
+    top: 18%;
+    left: 32%;
+  }
+
+  .contact-info .location-style {
+    font-size: 17px;
+    width: 35px;
+    height: 35px;
+    line-height: 38px;
+    padding-left: 12px;
+    margin-right: 10px;
+    top: 18%;
+    left: 57%;
+  }
+
+  .contact-info .tariff-btn {
+    position: absolute;
+    top: 61%;
+    left: 34%;
+  }
+
+  .services p {
+    width: 100%;
+  }
+
+  .services .service-1,
+  .services .service-2 {
+    margin-bottom: 5rem;
+  }
+
+  .tariff-container .tariffs {
+    flex-wrap: wrap;
+  }
+  .tariffs .card:nth-of-type(-n + 2) {
+    margin-bottom: 1.5rem;
+  }
+
+  .tariff-container .tariffs .card {
+    width: 21rem;
+  }
+
+  .blank-card {
+    width: 336px;
+  }
+  .tariffs .card:nth-last-of-type(-n + 2) {
+    margin-bottom: 70px;
+  }
+
+  .download-container .download-banner-img {
+    height: 61vh;
+  }
+
+  .download-container .content-container {
+    left: 3%;
+  }
+  .download-container
+    .content-container
+    .main-content
+    .content-middle
+    .mobile-img {
+    display: none;
+  }
+  .download-container
+    .content-container
+    .main-content
+    .content-left
+    .content-1
+    span,
+  .download-container
+    .content-container
+    .main-content
+    .content-left
+    .content-2
+    span,
+  .download-container
+    .content-container
+    .main-content
+    .content-right
+    .content-1
+    span,
+  .download-container
+    .content-container
+    .main-content
+    .content-right
+    .content-2
+    span {
+    display: none;
+  }
+
+  .download-container .content-container .main-content .content-right {
+    text-align: center;
+  }
+  .download-container .content-container .main-content .content-left {
+    text-align: center;
+  }
+  .download-container .content-container .main-content .content-right p {
+    width: none;
+    width: 100%;
+    float: none;
+  }
+  .download-container .content-container .main-content .content-left p {
+    width: 100%;
+  }
+  .download-container
+    .content-container
+    .main-content
+    .content-middle
+    .store-icons {
+    top: 6%;
+    left: -1%;
+    background-color: #ffc61a;
+    padding: 35px 40px;
+  }
+
+  .driver-container {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .testimonial-container .title-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .testimonial-container .title-content h4 {
+    color: #ffc61a;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  .testimonial-container .cards {
+    margin-left: 1rem;
+  }
+
+  .testimonial-container .cards .card {
+    height: 372px;
+    width: 330px;
+    position: relative;
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+    margin-left: 0rem;
+  }
+
+  .swiper-slider .swiper-button-prev {
+    left: 18.5rem;
+  }
+  .swiper-slider .swiper-button-next {
+    right: 19.5rem;
+  }
+
+  .partner-container {
+    height: 15rem;
+  }
+
+  .partner-container .title-content {
+    margin-top: 4rem;
+  }
+
+  .partner-container .title-content h4 {
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .partner-container .title-content h1 {
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 700;
+  }
+  .partner-container .partner-content .logo-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    grid-column-gap: 8rem;
+  }
+
+  .rights-container .rights-content a img {
+    left: 90%;
+    top: 102%;
+  }
+
+  footer .footer-content {
+    padding-bottom: 0;
+  }
+  footer .explore-content-hide {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .container-style {
+    margin-top: 0;
+  }
+
+  .navbar .navbar-toggler {
+    margin-right: 0.5rem;
+  }
+
+  .navbar .navbar-brand img {
+    margin-left: 1rem;
+  }
+
+  .banner-content {
+    width: 339px;
+    height: 780px;
+  }
+
+  .banner-content .vehicles i {
+    font-size: 2.7rem;
+    padding: 0px 30px;
+    padding-top: 1rem;
+  }
+  .banner-content .vehicles .active {
+    padding: 0px 30px;
+    padding-top: 1rem;
+  }
+
+  .banner-content .vehicles i:nth-last-child(-n + 2) {
+    margin-top: 1rem;
+  }
+
+  .banner-content .row input {
+    width: 78%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .banner-container {
+    height: 126vh;
+  }
+
+  .banner-content input:nth-child(2) {
+    margin-top: 2rem;
+  }
+
+  .banner-content .second-row {
+    margin-top: 0;
+  }
+
+  .banner-content .taxi-btn {
+    top: 85%;
+    left: 26%;
+  }
+  .contact-container {
+    height: 275px;
+  }
+
+  .contact-container .contact-info {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .contact-info p {
+    margin-left: 3rem;
+  }
+
+  .contact-info .skype-style {
+    top: 31%;
+    left: 4%;
+  }
+
+  .contact-info .location-style {
+    top: 48%;
+    left: 4%;
+  }
+  .contact-info .tariff-btn {
+    top: 77%;
+    left: 4%;
+    width: 92%;
+  }
+
+  .service-container .title-content h4 {
+    margin-bottom: 0;
+  }
+  .service-container .title-content h1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .service-container .services p {
+    width: 84%;
+  }
+
+  .services .service-3 {
+    margin-bottom: 5rem;
+  }
+  .service-container {
+    margin-bottom: 39px;
+  }
+
+  .tariff-container .title-content h4 {
+    margin-bottom: 0;
+  }
+  .tariff-container .title-content h1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .tariff-container .tariffs .card .image {
+    width: 149px;
+  }
+
+  .download-container .download-banner-img {
+    height: 123vh;
+  }
+  .download-container .content-container {
+    left: 0%;
+  }
+
+  .download-container .content-container .main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: -3rem;
+  }
+
+  .download-container
+    .content-container
+    .main-content
+    .content-middle
+    .store-icons {
+    left: 16%;
+    margin-top: -2rem;
+  }
+
+  .download-container .content-container .title-content {
+    margin-top: -57px;
+  }
+
+  .download-container .content-container .title-content h1 {
+    font-size: 36px;
+  }
+
+  .download-container .content-container .main-content .content-right {
+    margin-top: 15rem;
+  }
+
+  .download-container .content-container .main-content .content-left p {
+    width: 88%;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  .download-container .content-container .main-content .content-right p {
+    width: 88%;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  .driver-container .driver-info p {
+    width: 92%;
+  }
+  .driver-container .title-content h1 {
+    line-height: 36px;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .driver-container .driver-info .driver {
+    margin: 2rem 0 0 0.75rem;
+  }
+
+  .driver-container .driver-info ul {
+    margin-left: -2.5rem;
+  }
+
+  .testimonial-container .title-content h1 {
+    font-size: 2rem;
+  }
+
+  .testimonial-container .cards .card {
+    height: 449px;
+    width: 285px;
+    margin-left: 1rem;
+  }
+  .testimonial-container .cards .card .quote {
+    top: 71%;
+  }
+
+  .tariffs .card:nth-child(4) {
+    margin-top: 1.5rem;
+  }
+
+  .swiper-slider .swiper-button-prev {
+    left: 7rem;
+  }
+
+  .swiper-slider .swiper-button-next {
+    right: 8rem;
+  }
+
+  .partner-container {
+    height: 23rem;
+  }
+
+  .partner-container .title-content {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .partner-container .partner-content .logo-content {
+    margin-left: 3rem;
+    grid-column-gap: 0rem;
+  }
+
+  footer .contact-content {
+    margin-left: 0;
+  }
+  footer .footer-content h3 {
+    padding-bottom: 0;
+  }
+
+  .rights-container .rights-content a img{
+    display: none;
+  }
+}

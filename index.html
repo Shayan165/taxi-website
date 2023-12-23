@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="navigation">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container container-style">
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo-inner.png" alt="" srcset=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"
+              ><i class="fa-solid fa-bars"></i
+            ></span>
+          </button>
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div class="offcanvas-body dropdown" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link active"
+                    data-bs-toggle="dropdown"
+                    role="button"
+                    aria-expanded="false"
+                    href="#"
+                  >
+                    Home
+                    <i class="fa-solid fa-chevron-right arrow-icon"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Homepage 1</a></li>
+                    <li><a class="dropdown-item" href="#">Homepage 2</a></li>
+
+                    <li>
+                      <a class="dropdown-item active" href="#">Homepage 3</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">get taxi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">services</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="dropdown"
+                    role="button"
+                    aria-expanded="false"
+                    href="#"
+                    >our blog
+                    <i class="fa-solid fa-chevron-right arrow-icon"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Blog 1 column</a></li>
+                    <li><a class="dropdown-item" href="#">Blog 2 column</a></li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">Blog 3 column</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="dropdown"
+                    role="button"
+                    aria-expanded="false"
+                    href="#"
+                  >
+                    gallery
+                    <i class="fa-solid fa-chevron-right arrow-icon"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Gallery 2 column</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Gallery 3 column</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">Gallery 4 column</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="dropdown"
+                    role="button"
+                    aria-expanded="false"
+                    href="#"
+                  >
+                    shop
+                    <i class="fa-solid fa-chevron-right arrow-icon"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Shop</a></li>
+                    <li><a class="dropdown-item" href="#">Cart</a></li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">Checkout</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">My account</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="dropdown"
+                    role="button"
+                    aria-expanded="false"
+                    href="#"
+                  >
+                    contacts
+                    <i class="fa-solid fa-chevron-right arrow-icon"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Contacts</a></li>
+                    <li><a class="dropdown-item" href="#">Contacts 2</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="dropdown"
+                    role="button"
+                    data-bs-auto-close="false"
+                    aria-expanded="false"
+                    href="#"
+                  >
+                    pages
+                    <i class="fa-solid fa-chevron-right arrow-icon"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropstart">
+                      <a
+                        class="dropdown-item"
+                        data-bs-toggle="dropdown"
+                        role="button"
+                        aria-expanded="false"
+                        href="#"
+                      >
+                        Typography
+                        <i
+                          style="font-size: 14px; vertical-align: middle"
+                          class="fa-solid fa-caret-right arrow-icon"
+                        ></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Headers</a></li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Text</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Text Columns</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Table</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Seperators</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropstart">
+                      <a
+                        class="dropdown-item"
+                        data-bs-toggle="dropdown"
+                        role="button"
+                        aria-expanded="false"
+                        href="#"
+                      >
+                        Form Elements
+                        <i
+                          style="font-size: 14px; vertical-align: middle"
+                          class="fa-solid fa-caret-right arrow-icon"
+                        ></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Buttons</a></li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Forms</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropstart">
+                      <a
+                        class="dropdown-item"
+                        data-bs-toggle="dropdown"
+                        role="button"
+                        aria-expanded="false"
+                        href="#"
+                      >
+                        Shortcodes
+                        <i
+                          style="font-size: 14px; vertical-align: middle"
+                          class="fa-solid fa-caret-right arrow-icon"
+                        ></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">Accordions</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Alerts</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Tabs</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Text Sliders</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Shortcodes</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="dropstart">
+                      <a
+                        class="dropdown-item"
+                        data-bs-toggle="dropdown"
+                        role="button"
+                        aria-expanded="false"
+                        href="#"
+                      >
+                        Lists
+                        <i
+                          style="font-size: 14px; vertical-align: middle"
+                          class="fa-solid fa-caret-right arrow-icon"
+                        ></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Icons</a></li>
+
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Lists and Social Icons</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">Testimonials</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Team</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <a class="cart-icon" href=""
+                ><i
+                  style="font-size: 20px"
+                  class="fa-solid fa-cart-shopping"
+                ></i>
+                <span>0</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="banner-container">
+      <div class="banner" id="banner"></div>
+
+      <div class="banner-content">
+        <h2>GET TAXI <span>ONLINE</span></h2>
+        <div class="vehicles">
+          <i class="fa-solid fa-car-side active">
+            <p>STANDARD</p>
+          </i>
+          <i class="fa-solid fa-truck-monster">
+            <p>VIP</p>
+          </i>
+          <i class="fa-solid fa-truck">
+            <p>Minvan</p>
+          </i>
+          <i class="fa-solid fa-ferry">
+            <p>Ferry</p>
+          </i>
+        </div>
+        <div class="row first-row">
+          <div class="col-lg-5 col-md-11  mb-lg-0 mb-md-4">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="From Address..."
+              aria-label="First name"
+            />
+          </div>
+          <div class="col-lg-5 col-md-11 ">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="To..."
+              aria-label="Last name"
+            />
+          </div>
+        </div>
+        <div class="row second-row">
+          <div class="col-lg-5 col-md-11 mb-lg-0 mb-md-4">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Phone Number"
+              aria-label="First name"
+            />
+          </div>
+          <div class="col-lg-5 col-md-11">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Data and Time"
+              aria-label="Last name"
+            />
+          </div>
+        </div>
+        <button class="btn btn-warning rounded-5 taxi-btn">GET TAXI</button>
+      </div>
+    </div>
+
+    <div class="contact-container mb-5">
+      <div class="contact-info container">
+        <h2><i class="fa-solid fa-phone-flip phone-style"></i>800-5-800</h2>
+        <p><i class="fa-brands fa-skype skype-style"></i>GETTAXIPARK</p>
+        <p>
+          <i class="fa-solid fa-location-dot location-style"></i>43 2-ND AVENUE,
+          NEW YORK, 29004-7153
+        </p>
+        <button
+          class="btn btn-warning border-black border-2 rounded-5 fs-6 tariff-btn"
+        >
+          OUR TARIFFS
+        </button>
+      </div>
+    </div>
+
+    <div class="service-container">
+      <div class="container">
+        <div class="title-content">
+          <h4>WELCOME</h4>
+          <h1>OUR SERVICES</h1>
+        </div>
+
+        <div class="services row mt-5 mb-5">
+          <div class="service-1 col-lg-3 col-md-6">
+            <img src="images/services-1.png" class="mb-4" alt="" />
+            <h5>rapid city transfer</h5>
+            <p>
+              We will bring you quickly and comfortably to anywhere in your city
+            </p>
+          </div>
+          <div class="service-2 col-lg-3 col-md-6">
+            <img src="images/services-2.png" class="mb-4" alt="" />
+            <h5>booking a hotel</h5>
+            <p>
+              If you need a comfortable hotel, we will book it for
+              you, and take a taxi to the address
+            </p>
+          </div>
+          <div class="service-3 col-lg-3 col-md-6">
+            <img src="images/services-3.png" class="mb-4" alt="" />
+            <h5>airport transfer</h5>
+            <p>
+              We will bring you quickly and comfortably to anywhere in your city
+            </p>
+          </div>
+          <div class="service-4 col-lg-3 col-md-6">
+            <img src="images/services-4.png" class="mb-4" alt="" />
+            <h5>baggage transport</h5>
+            <p>
+              If you need a comfortable hotel, we will book it for
+              you, and take a taxi to the address
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tariff-container">
+      <div class="container">
+        <div class="title-content">
+          <h4>see our</h4>
+          <h1>tariffs</h1>
+        </div>
+        <div class="tariffs">
+          <div class="card">
+            <div class="image">
+              <img
+                src="images/tariff-1.png"
+                class="card-img-top w-100"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">standard</h5>
+              <p class="card-text">
+                Standard hatchback for a drive around the city at your service.
+              </p>
+              <p class="card-price"><span>$2</span>/km</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/tariff-2.png" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">BUSINESS</h5>
+              <p class="card-text">
+                Class sedan for a drive around the city at your service.
+              </p>
+              <p class="card-price"><span>$2,7</span>/km</p>
+            </div>
+          </div>
+          <div class="blank-card">
+            <i
+              style="
+                float: right;
+                padding-right: 8px;
+                padding-top: 10px;
+                color: white;
+              "
+              class="fa-solid fa-star"
+            ></i>
+            <div
+              class="card"
+              style="
+                clip-path: polygon(
+                  0 0,
+                  80% 0,
+                  100% 15%,
+                  100% 100%,
+                  0 100%,
+                  0% 50%
+                );
+                position: absolute;
+                border: 2px solid #ffc61a;
+              "
+            >
+              <div class="image">
+                <img src="images/tariff-3.png" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">VIP</h5>
+                <p class="card-text">
+                  Suv for a drive around the city at your service.
+                </p>
+                <p class="card-price"><span>$5</span>/km</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/tariff-4.png" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">BUS-MINIVAN</h5>
+              <p class="card-text">
+                Bus mini-van for a drive around the city at your service.
+              </p>
+              <p class="card-price"><span>$4.5</span>/km</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="download-container">
+      <div class="download-banner-img"></div>
+      <div class="container content-container">
+        <div class="title-content">
+          <h4>get more benefits</h4>
+          <h1>download the app</h1>
+        </div>
+        <div class="main-content">
+          <div class="content-left">
+            <div class="content-1">
+              <div><span>01.</span></div>
+              <div>
+                <h4>fast booking</h4>
+                <p>
+                  Nam ac ligula congue, interdum enim sit amet, fermentum nisi.
+                </p>
+              </div>
+            </div>
+            <div class="content-2">
+              <div><span>02.</span></div>
+              <div>
+                <h4>easy to use</h4>
+                <p>
+                  Orci varius natoque penatibus et magnis dis parturient montes,
+                  nascetur ridiculus mus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="content-middle">
+            <img class="mobile-img" src="images/mobile.png" alt="" />
+            <div class="store-icons">
+            <a href=""><img src="images/app-google-150x50.png" alt="" /></a>  
+              <a href=""><img src="images/app-apple-150x53.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="content-right">
+            <div class="content-1">
+              <div><span>03.</span></div>
+              <div>
+                <h4>Ggps searching</h4>
+                <p>
+                  Nam ac ligula congue, interdum enim sit amet, fermentum nisi.
+                </p>
+              </div>
+            </div>
+            <div class="content-2">
+              <div><span>04.</span></div>
+              <div>
+                <h4>bonuses for ride</h4>
+                <p>
+                  Phasellus l et porta tortor dignissim at. Pellentesque gravida
+                  tortor at euismod mollis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="driver-container container">
+      <div class="title-content">
+        <h4>for drivers</h4>
+        <h1>do you want to earn with us?</h1>
+      </div>
+      <div class="driver-info">
+        <p>
+          Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+          Phasellus hendrerit, massa efficitur dapibus pulvinar, sapien eros
+          sodales ante, euismod aliquet nulla metus a mauris.
+        </p>
+        <ul class="row p-md-0">
+          <div class="col-lg-3 col-md-3">
+            <li><i class="fa-solid fa-check"></i>Luxury cars</li>
+            <li><i class="fa-solid fa-check"></i>No fee</li>
+            <li><i class="fa-solid fa-check"></i>Weekly payment</li>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <li><i class="fa-solid fa-check"></i>Fixed price</li>
+            <li><i class="fa-solid fa-check"></i>Good application</li>
+            <li><i class="fa-solid fa-check"></i>Stable orders</li>
+          </div>
+        </ul>
+        <button class="btn btn-warning rounded-5 driver">
+          become a driver
+        </button>
+      </div>
+    </div>
+
+    <div class="wpb_wrapper"><hr class="lg" /></div>
+
+    <div class="testimonial-container">
+      <div class="container">
+        <div class="title-content">
+          <h4>happy clients</h4>
+          <h1>testimonials</h1>
+        </div>
+        <div class="cards">
+          <div class="row">
+            <div class="swiper swiper-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="col-4">
+                    <div class="card border-0 rounded-1">
+                      <div class="text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Repudiandae dolores nobis, quo culpa assumenda
+                          voluptatem iusto facilis debitis perspiciatis optio?
+                        </p>
+                      </div>
+                      <div class="quote">
+                        <span><i class="fa-solid fa-quote-left"></i></span>
+                        <p>anastasia stone</p>
+                        <img src="images/client-1.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="col-4">
+                    <div class="card border-0 rounded-1">
+                      <div class="text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Repudiandae dolores nobis, quo culpa assumenda
+                          voluptatem iusto facilis debitis perspiciatis optio?
+                        </p>
+                      </div>
+                      <div class="quote">
+                        <span><i class="fa-solid fa-quote-left"></i></span>
+                        <p>anastasia stone</p>
+                        <img src="images/client-4.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="col-4">
+                    <div class="card border-0 rounded-1">
+                      <div class="text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Repudiandae dolores nobis, quo culpa assumenda
+                          voluptatem iusto facilis debitis perspiciatis optio?
+                        </p>
+                      </div>
+                      <div class="quote">
+                        <span><i class="fa-solid fa-quote-left"></i></span>
+                        <p>anastasia stone</p>
+                        <img src="images/client-5.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="col-4">
+                    <div class="card border-0 rounded-1">
+                      <div class="text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Repudiandae dolores nobis, quo culpa assumenda
+                          voluptatem iusto facilis debitis perspiciatis optio?
+                        </p>
+                      </div>
+                      <div class="quote">
+                        <span><i class="fa-solid fa-quote-left"></i></span>
+                        <p>anastasia stone</p>
+                        <img src="images/client-5.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="col-4">
+                    <div class="card border-0 rounded-1">
+                      <div class="text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Repudiandae dolores nobis, quo culpa assumenda
+                          voluptatem iusto facilis debitis perspiciatis optio?
+                        </p>
+                      </div>
+                      <div class="quote">
+                        <span><i class="fa-solid fa-quote-left"></i></span>
+                        <p>anastasia stone</p>
+                        <img src="images/client-1.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="col-4">
+                    <div class="card border-0 rounded-1">
+                      <div class="text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Repudiandae dolores nobis, quo culpa assumenda
+                          voluptatem iusto facilis debitis perspiciatis optio?
+                        </p>
+                      </div>
+                      <div class="quote">
+                        <span><i class="fa-solid fa-quote-left"></i></span>
+                        <p>anastasia stone</p>
+                        <img src="images/client-5.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-controls">
+                <button class="swiper-button-prev" id="prevBtn">
+                  <i class="fa-solid fa-caret-left"></i>
+                </button>
+
+                <button class="swiper-button-next" id="nextBtn">
+                  <i class="fa-solid fa-caret-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 p-0">
+            <img style="width: 100%" src="images/banner-1-4.png" alt="" />
+          </div>
+          <div class="col-lg-6 col-md-6 p-0">
+            <img style="width: 100%" src="images/banner-2-2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="partner-container">
+      <div class="container partner-content">
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-12">
+            <div class="title-content">
+              <h4>our partners</h4>
+              <h1>and clients</h1>
+            </div>
+          </div>
+          <div class="logo-content col-lg-7 col-md-7 ">
+            <img src="images/partner-2.png" alt="" />
+
+            <img src="images/partner-1.png" alt="" />
+
+            <img src="images/partner-3.png" alt="" />
+
+            <img src="images/partner-5.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row footer-content">
+          <div class="col-lg-4 col-md-6">
+            <div class="about-content">
+              <h3>about us</h3>
+              <p>
+                Nullam orci dui, dictum et magna sollicitudin, tempor blandit
+                erat. Maecenas suscipit tellus sit amet augue placerat fringilla
+                a id lacus. Fusce tincidunt in leo lacinia condimentum.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 explore-content-hide">
+            <div class="explore-content">
+              <h3>explore</h3>
+              <ul class="row p-0 pe-5">
+                <div class="col-6">
+                  <a href=""
+                    ><li>
+                      <i class="fa-solid fa-chevron-right"></i>Gallery
+                    </li></a
+                  >
+                  <a href=""
+                    ><li>
+                      <i class="fa-solid fa-chevron-right"></i>Testimonials
+                    </li></a
+                  >
+                  <a href=""
+                    ><li>
+                      <i class="fa-solid fa-chevron-right"></i>Services
+                    </li></a
+                  >
+                  <a href=""
+                    ><li>
+                      <i class="fa-solid fa-chevron-right"></i>Shortcodes
+                    </li></a
+                  >
+                </div>
+                <div class="col-6">
+                  <a href=""
+                    ><li>
+                      <i class="fa-solid fa-chevron-right"></i>Contacts
+                    </li></a
+                  >
+                  <a href=""
+                    ><li><i class="fa-solid fa-chevron-right"></i>Blog</li></a
+                  >
+                  <a href=""
+                    ><li>
+                      <i class="fa-solid fa-chevron-right"></i>Get Taxi
+                    </li></a
+                  >
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 ps-md-0">
+            <div class="contact-content">
+              <h3>contact us</h3>
+              <p>
+                <span>Address:</span> 43 2-nd Avenue, New York, NY 29004-7153
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="rights-container">
+      <div class="container rights-content">
+        <p>
+          <a href=""><span>Taxi-theme</span></a> 2023 © All Rights Reserved
+         <a href=""><span>Terms of use</span></a> 
+        </p>
+        <a href="#banner"><img src="images/car-big-side.png" alt="" /></a>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        speed: 1000,
+        autoplay: {
+          delay: 6000,
+          disableOnInteraction: false,
+        },
+        loop: false,
+        slidesPerView: 1,
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+            slidesPerGroup: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+          },
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
