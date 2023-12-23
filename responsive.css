@@ -373,7 +373,10 @@
   }
 }
 
-@media (max-width: 575px) {
+@media  (max-width: 575px) {
+  html{
+    overflow-x: hidden;
+  } 
   .container-style {
     margin-top: 0;
   }
