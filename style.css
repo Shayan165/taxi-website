@@ -5,6 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html, body{
+  overflow-x: hidden;
+} 
 .title-content {
   text-align: center;
   font-family: "Fira Sans Condensed", sans-serif;
