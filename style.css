@@ -223,59 +223,48 @@ hr.lg {
 
 .contact-container {
   background-color: #ffc61a;
-  position: relative;
+  
 }
 
 .contact-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+ 
   padding: 30px 0;
+ 
+}
+.contact-info h3{
+  font-weight: 700;
 }
 
-.contact-info .phone-style {
+.contact-info h4{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+.contact-info i{
   font-size: 25px;
   width: 50px;
   height: 50px;
   background-color: white;
   border-radius: 50%;
   line-height: 55px;
+}
+.contact-info .phone-style {
   padding-left: 13px;
   margin-right: 10px;
 }
 
 .contact-info .skype-style {
-  font-size: 25px;
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  border-radius: 50%;
-  line-height: 55px;
   padding-left: 14px;
   margin-right: 10px;
-  position: absolute;
-  top: 26%;
-  left: 26%;
 }
 
 .contact-info .location-style {
-  font-size: 25px;
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  border-radius: 50%;
-  line-height: 55px;
   padding-left: 16px;
   margin-right: 10px;
-  position: absolute;
-  top: 28%;
-  left: 42%;
 }
 
-.contact-info p {
-  font-weight: 700;
-  margin: 0;
-}
+
 
 .contact-info .tariff-btn {
   padding: 15px 70px;

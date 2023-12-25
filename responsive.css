@@ -61,6 +61,7 @@
   .banner-container {
     height: 130vh;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -161,10 +162,6 @@
     width: 100%;
   }
 
-  .contact-container {
-    height: 203px;
-  }
-
   .contact-info {
     flex-wrap: wrap;
   }
@@ -206,11 +203,6 @@
     left: 57%;
   }
 
-  .contact-info .tariff-btn {
-    position: absolute;
-    top: 61%;
-    left: 34%;
-  }
 
   .services p {
     width: 100%;
@@ -429,32 +421,10 @@
     margin-top: 0;
   }
 
-  .contact-container {
-    height: 275px;
-  }
-
-  .contact-container .contact-info {
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-  }
-  .contact-info p {
-    margin-left: 3rem;
-  }
-
-  .contact-info .skype-style {
-    top: 31%;
-    left: 4%;
-  }
-
-  .contact-info .location-style {
-    top: 48%;
-    left: 4%;
-  }
-  .contact-info .tariff-btn {
-    top: 77%;
-    left: 4%;
-    width: 92%;
-  }
+   .contact-info .tariff-btn {
+   
+    width: 100%;
+  } 
 
   .service-container .title-content h4 {
     margin-bottom: 0;
