@@ -57,6 +57,12 @@
   }
 }
 
+@media(max-width:992px){
+  .banner-container {
+    height: 130vh;
+  }
+}
+
 @media (max-width: 768px) {
   .offcanvas {
     width: 100% !important;
@@ -143,14 +149,13 @@
   .banner-content {
     top: 15%;
     left: 3%;
-    width: 568px;
-    height: 634px;
     background-color: #f5f5f5;
   }
-
   .banner-container {
-    height: 85vh;
+    height: 112vh;
   }
+
+  
 
   .banner-content .vehicles {
     width: 100%;
@@ -387,10 +392,10 @@
     margin-left: 1rem;
   }
 
-  .banner-content {
-    width: 339px;
-    height: 780px;
-  }
+   .banner-content {
+    width: 94%;
+    top: 23%;
+  } 
 
   .banner-content .vehicles i {
     font-size: 2.7rem;
@@ -413,7 +418,7 @@
   }
 
   .banner-container {
-    height: 126vh;
+    height: 152vh;
   }
 
   .banner-content input:nth-child(2) {
@@ -424,10 +429,6 @@
     margin-top: 0;
   }
 
-  .banner-content .taxi-btn {
-    top: 85%;
-    left: 26%;
-  }
   .contact-container {
     height: 275px;
   }
