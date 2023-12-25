@@ -5,9 +5,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-html, body{
+html,
+body {
   overflow-x: hidden;
-} 
+}
 .title-content {
   text-align: center;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -51,11 +52,9 @@ hr.lg {
   box-shadow: none;
 }
 
-.navbar .navbar-toggler-icon {
+.navbar .burger-icon i {
   color: white;
-}
-.navbar .navbar-toggler-icon i {
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 .container-style {
@@ -98,7 +97,6 @@ hr.lg {
 .banner-container {
   height: 112vh;
   overflow: hidden;
-  
 }
 
 .banner {
@@ -109,7 +107,6 @@ hr.lg {
   background-size: cover;
   background-position: center;
   position: relative;
- 
 }
 
 @keyframes kenBurns {
@@ -183,9 +180,9 @@ hr.lg {
   margin-top: 1.5rem;
 }
 
- .banner-content .vehicles {
+.banner-content .vehicles {
   text-align: center;
-} 
+}
 .banner-content .vehicles i {
   font-size: 2.5rem;
   padding: 0px 31px;
@@ -210,7 +207,7 @@ hr.lg {
 }
 
 .banner-content .taxi-btn {
- width: auto;
+  width: auto;
   padding: 15px 50px;
   font-weight: 700;
   border: none;
@@ -223,25 +220,21 @@ hr.lg {
 
 .contact-container {
   background-color: #ffc61a;
-  
 }
 
 .contact-info {
- 
   padding: 30px 0;
- 
 }
-.contact-info h3{
+.contact-info h3 {
   font-weight: 700;
 }
 
-.contact-info h4{
+.contact-info h4 {
   font-size: 18px;
   font-weight: 700;
 }
 
-
-.contact-info i{
+.contact-info i {
   font-size: 25px;
   width: 50px;
   height: 50px;
@@ -263,8 +256,6 @@ hr.lg {
   padding-left: 16px;
   margin-right: 10px;
 }
-
-
 
 .contact-info .tariff-btn {
   padding: 15px 70px;
@@ -291,8 +282,8 @@ hr.lg {
 }
 
 .service-container {
-  margin-top: 80px;
-  margin-bottom: 130px;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
 }
 
 /* Tariff section */
@@ -377,7 +368,7 @@ hr.lg {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); 
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .download-container .content-container {
