@@ -281,9 +281,6 @@
   .tariff-container .tariffs .blank-card {
     flex-basis: 100%;
   }
-  .download-container .download-banner-img {
-    height: 61vh;
-  }
   .download-container .content-container .main-content {
     flex-direction: column;
   }
@@ -293,7 +290,7 @@
   }
 
   .download-container .download-banner-img {
-    height: 135vh;
+    height: 91vh;
   }
 
   .download-container .content-container .main-content .content-right,
@@ -488,6 +485,10 @@
 
   .download-container .content-container {
     margin-top: -50rem;
+  }
+
+  .download-container .download-banner-img {
+    height: 110vh;
   }
 
   .download-container
