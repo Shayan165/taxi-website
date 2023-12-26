@@ -60,17 +60,75 @@
   .tariff-container .tariffs .card {
     flex-basis: calc(50% - 1em);
   }
-  .tariff-container .tariffs .blank-card{
+  .tariff-container .tariffs .blank-card {
     flex-basis: calc(50% - 1em);
   }
-
 }
 
-@media(max-width:992px){
+@media (max-width: 992px) {
   .banner-container {
     height: 130vh;
   }
+  .download-container
+    .content-container
+    .main-content
+    .content-middle
+    .mobile-img {
+    display: none;
+  }
+  .download-container
+    .content-container
+    .main-content
+    .content-middle
+    .store-icons {
+    /* top: 6%;
+    left: -1%; */
+    background-color: #ffc61a;
+    padding: 30px 5px;
+    position: static;
+    text-align: center;
+  }
+  .download-container
+    .content-container
+    .main-content
+    .content-left
+    .content-1
+    span,
+  .download-container
+    .content-container
+    .main-content
+    .content-left
+    .content-2
+    span,
+  .download-container
+    .content-container
+    .main-content
+    .content-right
+    .content-1
+    span,
+  .download-container
+    .content-container
+    .main-content
+    .content-right
+    .content-2
+    span {
+    display: none;
+  }
+  .download-container .content-container .main-content .content-right,
+  .download-container .content-container .main-content .content-left {
+    text-align: center;
+    margin-top: 5rem;
+    width: 30%;
+  }
 
+  .download-container .content-container .main-content .content-right p {
+    width: none;
+    width: 100%;
+    float: none;
+  }
+  .download-container .content-container .main-content .content-left p {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -165,8 +223,6 @@
     height: 112vh;
   }
 
-  
-
   .banner-content .vehicles {
     width: 100%;
   }
@@ -212,11 +268,9 @@
     left: 57%;
   }
 
-
   .services p {
     width: 100%;
   }
-
 
   .tariff-container .tariffs {
     flex-wrap: wrap;
@@ -224,73 +278,56 @@
   .tariff-container .tariffs .card {
     flex-basis: 100%;
   }
-  .tariff-container .tariffs .blank-card{
+  .tariff-container .tariffs .blank-card {
     flex-basis: 100%;
   }
   .download-container .download-banner-img {
     height: 61vh;
   }
-
+  .download-container .content-container .main-content {
+    flex-direction: column;
+  }
   .download-container .content-container {
-    left: 3%;
-  }
-  .download-container
-    .content-container
-    .main-content
-    .content-middle
-    .mobile-img {
-    display: none;
-  }
-  .download-container
-    .content-container
-    .main-content
-    .content-left
-    .content-1
-    span,
-  .download-container
-    .content-container
-    .main-content
-    .content-left
-    .content-2
-    span,
-  .download-container
-    .content-container
-    .main-content
-    .content-right
-    .content-1
-    span,
-  .download-container
-    .content-container
-    .main-content
-    .content-right
-    .content-2
-    span {
-    display: none;
+    width: 100%;
+    margin-top: -50rem;
   }
 
-  .download-container .content-container .main-content .content-right {
-    text-align: center;
+  .download-container .download-banner-img {
+    height: 135vh;
   }
+
+  .download-container .content-container .main-content .content-right,
   .download-container .content-container .main-content .content-left {
-    text-align: center;
-  }
-  .download-container .content-container .main-content .content-right p {
-    width: none;
+    margin-top: 0;
     width: 100%;
-    float: none;
   }
-  .download-container .content-container .main-content .content-left p {
-    width: 100%;
+
+  .download-container
+    .content-container
+    .main-content
+    .content-left
+    .content-1 {
+    justify-content: center;
+  }
+  .download-container
+    .content-container
+    .main-content
+    .content-right
+    .content-1 {
+    justify-content: center;
+  }
+
+  .download-container .content-container .title-content h1 {
+    font-size: 36px;
   }
   .download-container
     .content-container
     .main-content
     .content-middle
     .store-icons {
-    top: 6%;
-    left: -1%;
-    background-color: #ffc61a;
-    padding: 35px 40px;
+    width: 99%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   .driver-container {
@@ -366,8 +403,7 @@
   }
 }
 
-@media  (max-width: 575px) {
- 
+@media (max-width: 575px) {
   .container-style {
     margin-top: 0;
   }
@@ -380,10 +416,10 @@
     margin-left: 1rem;
   }
 
-   .banner-content {
+  .banner-content {
     width: 94%;
     top: 23%;
-  } 
+  }
 
   .banner-content .vehicles i {
     font-size: 2.7rem;
@@ -417,10 +453,9 @@
     margin-top: 0;
   }
 
-   .contact-info .tariff-btn {
-   
+  .contact-info .tariff-btn {
     width: 100%;
-  } 
+  }
 
   .service-container .title-content h4 {
     margin-bottom: 0;
@@ -450,17 +485,9 @@
     width: 149px;
   }
 
-  .download-container .download-banner-img {
-    height: 123vh;
-  }
-  .download-container .content-container {
-    left: 0%;
-  }
 
-  .download-container .content-container .main-content {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: -3rem;
+  .download-container .content-container {
+    margin-top: -50rem;
   }
 
   .download-container
@@ -468,30 +495,15 @@
     .main-content
     .content-middle
     .store-icons {
-    left: 16%;
-    margin-top: -2rem;
-  }
-
-  .download-container .content-container .title-content {
-    margin-top: -57px;
-  }
-
-  .download-container .content-container .title-content h1 {
-    font-size: 36px;
-  }
-
-  .download-container .content-container .main-content .content-right {
-    margin-top: 15rem;
+    margin-left: auto;
   }
 
   .download-container .content-container .main-content .content-left p {
-    width: 88%;
     font-size: 14px;
     margin: 0 auto;
     margin-bottom: 1rem;
   }
   .download-container .content-container .main-content .content-right p {
-    width: 88%;
     font-size: 14px;
     margin: 0 auto;
     margin-bottom: 1rem;
@@ -560,8 +572,7 @@
     padding-bottom: 0;
   }
 
-  .rights-container .rights-content a img{
+  .rights-container .rights-content a img {
     display: none;
   }
 }
-

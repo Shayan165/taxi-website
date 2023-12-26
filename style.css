@@ -292,7 +292,6 @@ hr.lg {
   background-color: #f5f5f5;
 }
 
-
 .tariff-container .title-content {
   padding-top: 60px;
 }
@@ -302,7 +301,6 @@ hr.lg {
   margin-top: 40px;
   flex-wrap: wrap;
   padding-bottom: 3rem;
-
 }
 .tariff-container .tariffs .card {
   flex-basis: calc(25% - 1em);
@@ -350,8 +348,7 @@ hr.lg {
   position: absolute;
   border: 2px solid #ffc61a;
   width: 100%;
-  height:100%;
- 
+  height: 100%;
 }
 
 .blank-card:hover {
@@ -364,14 +361,18 @@ hr.lg {
 .download-container {
   position: relative;
 }
+.download-container .container {
+  position: relative;
+  padding: 0;
+  width: auto;
+}
 
 .download-container .download-banner-img {
   background-image: url("./images/download-bg.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 85vh;
-  position: relative;
+  height: 90vh;
 }
 
 .download-container .download-banner-img::before {
@@ -386,8 +387,11 @@ hr.lg {
 
 .download-container .content-container {
   position: absolute;
-  top: 13%;
-  left: 6.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -32rem;
 }
 
 .download-container .content-container .title-content h1 {
@@ -399,14 +403,11 @@ hr.lg {
 }
 
 .download-container .content-container .main-content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-}
+  display: flex;
 
-.download-container .content-container .main-content .content-left,
-.download-container .content-container .main-content .content-right {
-  margin-top: 30%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 .download-container .content-container .main-content .content-left h4 {
@@ -434,10 +435,6 @@ hr.lg {
   color: white;
   width: 80%;
   float: right;
-}
-
-.download-container .content-container .main-content .content-middle {
-  margin-top: 58px;
 }
 
 .download-container .content-container .main-content .content-left .content-1 {
@@ -515,19 +512,10 @@ hr.lg {
   .content-container
   .main-content
   .content-middle
-  .mobile-img {
-  margin: 0 15%;
-}
-
-.download-container
-  .content-container
-  .main-content
-  .content-middle
   .store-icons {
   position: absolute;
   top: 60%;
-  left: 32%;
-  display: grid;
+  left: 26%;
 }
 .download-container
   .content-container
