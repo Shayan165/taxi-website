@@ -549,7 +549,7 @@ header .container-style {
   margin-bottom: 2rem;
 }
 .driver-container .title-content h1 {
-  line-height: 30px;
+  line-height: 41px;
   font-weight: 700;
   font-size: 48px;
 }
@@ -691,7 +691,6 @@ header .container-style {
 
 .partner-container {
   background-color: #ffc61a;
-  height: 10rem;
 }
 .partner-container .title-content {
   text-align: left;
@@ -709,6 +708,7 @@ header .container-style {
 }
 .partner-container .partner-content {
   padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .partner-container .partner-content .logo-content {
@@ -716,8 +716,8 @@ header .container-style {
   grid-template-columns: repeat(
     4,
     1fr
-  ); /* This will create four equal columns */
-  grid-gap: 7rem;
+  ); 
+  grid-gap: 4rem;
 }
 
 /* Footer */
@@ -731,7 +731,7 @@ footer .footer-content {
 footer .footer-content h3 {
   text-transform: uppercase;
   font-family: "Fira Sans Condensed", sans-serif;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
   font-size: 24px;
 }
 footer .about-content h3 {
