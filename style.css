@@ -551,6 +551,7 @@ header .container-style {
 .driver-container .title-content h1 {
   line-height: 30px;
   font-weight: 700;
+  font-size: 48px;
 }
 .driver-container .driver-info p {
   width: 31rem;
@@ -575,7 +576,7 @@ header .container-style {
 
 .driver-container .driver-info .driver {
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 15px 70px;
   font-weight: 700;
   margin-top: 2rem;

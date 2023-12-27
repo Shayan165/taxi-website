@@ -90,6 +90,7 @@
     padding: 30px 70px;
     position: static;
     text-align: center;
+    margin-top: 2rem;
   }
   .download-container .content-container .main-content .content-middle .store-icons img{
     display: block;
@@ -283,7 +284,7 @@
     flex-basis: 100%;
   }
 
-  /* doenload section */
+  /* download section */
 
   .content-left,
   .content-right,
@@ -313,6 +314,9 @@
     .content-1 {
     justify-content: center;
   }
+  .download-container .content-container .main-content .content-left .content-2 {
+    justify-content: center;
+}
   .download-container
     .content-container
     .main-content
@@ -320,7 +324,9 @@
     .content-1 {
     justify-content: center;
   }
-  
+  .download-container .content-container .main-content .content-right .content-2 {
+    justify-content: center;
+}
   /* Driver section */
   .driver-container {
     margin-top: 2rem;
@@ -488,7 +494,7 @@
   }
 
   .driver-container .driver-info .driver {
-    margin: 2rem 0 0 0.75rem;
+    margin: 2rem 0 0 0rem;
   }
 
   .driver-container .driver-info ul {
