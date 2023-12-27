@@ -1,1 +1,1 @@
-This repos holds the source code for Taxi website, Made using Html,css,javascript.
+This repo holds the source code for Taxi website, Made using Html,css,javascript.
