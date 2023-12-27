@@ -81,12 +81,13 @@
     .main-content
     .content-middle
     .store-icons {
-    /* top: 6%;
-    left: -1%; */
     background-color: #ffc61a;
-    padding: 30px 5px;
+    padding: 30px 70px;
     position: static;
     text-align: center;
+  }
+  .download-container .content-container .main-content .content-middle .store-icons img{
+    display: block;
   }
   .download-container
     .content-container
@@ -122,7 +123,6 @@
   }
 
   .download-container .content-container .main-content .content-right p {
-    width: none;
     width: 100%;
     float: none;
   }
@@ -281,24 +281,30 @@
   .tariff-container .tariffs .blank-card {
     flex-basis: 100%;
   }
-  .download-container .content-container .main-content {
-    flex-direction: column;
-  }
-  .download-container .content-container {
-    width: 100%;
-    margin-top: -50rem;
+
+  /* doenload section */
+
+  .content-left,
+  .content-right,
+  .content-middle {
+    flex: 100%;
+    margin-bottom: 20px;
   }
 
-  .download-container .download-banner-img {
-    height: 91vh;
+  .download-container .content-container .title-content h1 {
+    font-size: 36px;
   }
 
-  .download-container .content-container .main-content .content-right,
-  .download-container .content-container .main-content .content-left {
-    margin-top: 0;
-    width: 100%;
+  .download-container .content-container .main-content .content-left p {
+    font-size: 14px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
   }
-
+  .download-container .content-container .main-content .content-right p {
+    font-size: 14px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
   .download-container
     .content-container
     .main-content
@@ -313,20 +319,8 @@
     .content-1 {
     justify-content: center;
   }
-
-  .download-container .content-container .title-content h1 {
-    font-size: 36px;
-  }
-  .download-container
-    .content-container
-    .main-content
-    .content-middle
-    .store-icons {
-    width: 99%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
-
+  
+  /* Driver section */
   .driver-container {
     margin-top: 2rem;
     margin-bottom: 3rem;
@@ -483,32 +477,6 @@
   }
 
 
-  .download-container .content-container {
-    margin-top: -50rem;
-  }
-
-  .download-container .download-banner-img {
-    height: 110vh;
-  }
-
-  .download-container
-    .content-container
-    .main-content
-    .content-middle
-    .store-icons {
-    margin-left: auto;
-  }
-
-  .download-container .content-container .main-content .content-left p {
-    font-size: 14px;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-  }
-  .download-container .content-container .main-content .content-right p {
-    font-size: 14px;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-  }
   .driver-container .driver-info p {
     width: 92%;
   }

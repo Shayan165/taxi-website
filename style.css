@@ -358,21 +358,22 @@ hr.lg {
 
 /* download section */
 
-.download-container {
-  position: relative;
-}
 .download-container .container {
-  position: relative;
+  
   padding: 0;
   width: auto;
+  height: auto;
 }
 
 .download-container .download-banner-img {
-  background-image: url("./images/download-bg.jpg");
+  position: relative;
+  background-image: url(images/download-bg.jpg);
   background-position: center;
   background-size: cover;
-  width: 100%;
-  height: 80vh;
+  text-align: center;
+  padding-top: 3.6rem;
+  z-index: 0;
+
 }
 
 .download-container .download-banner-img::before {
@@ -383,15 +384,12 @@ hr.lg {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
 }
 
 .download-container .content-container {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: -32rem;
+   position: relative;
+   z-index: 2;
 }
 
 .download-container .content-container .title-content h1 {
@@ -404,12 +402,14 @@ hr.lg {
 
 .download-container .content-container .main-content {
   display: flex;
-
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  margin-top: 2rem;
 }
-
+.download-container .content-container .main-content .content-left,
+.download-container .content-container .main-content .content-right {
+    flex: 1;
+    margin-top: 5rem;
+  }
 .download-container .content-container .main-content .content-left h4 {
   color: #ffc61a;
   text-transform: uppercase;
@@ -420,7 +420,9 @@ hr.lg {
   color: white;
   width: 80%;
 }
-
+.download-container .content-container .main-content .content-left{
+    text-align: left;
+}
 .download-container .content-container .main-content .content-right {
   text-align: right;
 }
@@ -503,9 +505,16 @@ hr.lg {
   padding-right: 5px;
   margin-left: 23px;
 }
+.mobile-img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 .download-container .content-container .main-content .content-middle {
   position: relative;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .download-container
@@ -515,14 +524,15 @@ hr.lg {
   .store-icons {
   position: absolute;
   top: 60%;
-  left: 26%;
+  left: 0%;
+  display: inline-block;
 }
 .download-container
   .content-container
   .main-content
   .content-middle
   .store-icons
-  img:first-child {
+ #google {
   margin-bottom: 20px;
 }
 
