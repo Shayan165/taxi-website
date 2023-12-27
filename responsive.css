@@ -58,7 +58,7 @@
 }
 @media screen and (max-width: 1200px) {
   header .container-style {
-    border-bottom: none!important;
+    border-bottom: none !important;
     margin-bottom: 0.2rem;
     margin-top: -0.2rem;
   }
@@ -92,7 +92,12 @@
     text-align: center;
     margin-top: 2rem;
   }
-  .download-container .content-container .main-content .content-middle .store-icons img{
+  .download-container
+    .content-container
+    .main-content
+    .content-middle
+    .store-icons
+    img {
     display: block;
   }
   .download-container
@@ -134,6 +139,13 @@
   }
   .download-container .content-container .main-content .content-left p {
     width: 100%;
+  }
+
+  .testimonial-container .cards .card {
+    margin-left: 1rem;
+  }
+  .testimonial-container .cards .card .quote {
+    margin-top: 0;
   }
 }
 
@@ -214,7 +226,6 @@
     padding: 0;
     border-radius: 0;
   }
- 
 
   .banner-content {
     top: 15%;
@@ -314,9 +325,13 @@
     .content-1 {
     justify-content: center;
   }
-  .download-container .content-container .main-content .content-left .content-2 {
+  .download-container
+    .content-container
+    .main-content
+    .content-left
+    .content-2 {
     justify-content: center;
-}
+  }
   .download-container
     .content-container
     .main-content
@@ -324,9 +339,13 @@
     .content-1 {
     justify-content: center;
   }
-  .download-container .content-container .main-content .content-right .content-2 {
+  .download-container
+    .content-container
+    .main-content
+    .content-right
+    .content-2 {
     justify-content: center;
-}
+  }
   /* Driver section */
   .driver-container {
     margin-top: 2rem;
@@ -349,11 +368,6 @@
   }
 
   .testimonial-container .cards .card {
-    height: 372px;
-    width: 330px;
-    position: relative;
-    margin-bottom: 10rem;
-    margin-top: 2rem;
     margin-left: 0rem;
   }
 
@@ -483,7 +497,6 @@
     width: 149px;
   }
 
-
   .driver-container .driver-info p {
     width: 92%;
   }
@@ -506,24 +519,14 @@
   }
 
   .testimonial-container .cards .card {
-    height: 449px;
-    width: 285px;
-    margin-left: 1rem;
+    width: 100%;
   }
-  .testimonial-container .cards .card .quote {
-    top: 71%;
+  .testimonial-container .cards {
+    margin-left: 0;
   }
 
   .tariffs .card:nth-child(4) {
     margin-top: 1.5rem;
-  }
-
-  .swiper-slider .swiper-button-prev {
-    left: 7rem;
-  }
-
-  .swiper-slider .swiper-button-next {
-    right: 8rem;
   }
 
   .partner-container {
