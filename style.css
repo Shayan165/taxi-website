@@ -57,7 +57,7 @@ hr.lg {
   font-size: 2.4rem;
 }
 
-.container-style {
+header .container-style {
   margin-bottom: -0.5rem;
   border-bottom: 4px solid #ffc61a;
   padding-right: 0px !important;
